@@ -61,7 +61,7 @@
       // |-----------------------------------------------------------------------------------------+
       // |        |     |     |     |     |     |     |     |     |     |     |     |      |       |
       // |-----------------------------------------------------------------------------------------+
-      // |         |     |     |     |     |PgDn |     |Left |Down | Up  |Right|     |     |       |
+      // |         |     |     |     |PgDn |     |Left |Down | Up  |Right|     |     |     |       |
       // |-----------------------------------------------------------------------------------------+
       // |   Shift   |     |     |     |     |PgUp |     |     |     |     |     |      Shift      |
       // |-----------------------------------------------------------------------------------------+
@@ -71,7 +71,7 @@
 			bindings = <
 				&trans &bootloader &sys_reset &bl BL_TOG &rgb_ug RGB_TOG &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans
+				&trans &trans &trans &trans &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &trans
 				&kp LSHFT &trans &trans &trans &trans &kp PG_UP &trans &trans &trans &trans &trans &kp RSHFT
 				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE             &kp RALT  &to 0  &mo 0  &kp RCTRL
 			>;
