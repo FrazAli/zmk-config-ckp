@@ -65,7 +65,7 @@
       // |-----------------------------------------------------------------------------------------+
       // |   Shift   |     |     |     |     |PgUp |     |     |     |     |     |      Shift      |
       // |-----------------------------------------------------------------------------------------+
-      // | Ctrl  |  Gui  |  Alt  |              Space              |  Alt  |  TL0  |  ML0  | Ctrl  |
+      // | Ctrl  |  Gui  |  Alt  |              Space              |  Alt  |  TGL2  |  ML0  | Ctrl  |
       // `-----------------------------------------------------------------------------------------'
       //
 			bindings = <
@@ -73,7 +73,7 @@
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &trans
 				&kp LSHFT &trans &trans &trans &trans &kp PG_UP &trans &trans &trans &trans &trans &kp RSHFT
-				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE             &kp RALT  &to 0  &mo 0  &kp RCTRL
+				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE             &kp RALT  &tog 2  &mo 0  &kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
