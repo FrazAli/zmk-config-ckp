@@ -50,7 +50,7 @@
 				&trans &trans &kp UP &trans &trans &trans &trans &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans
 				&kp CAPS &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &kp INS &kp HOME &kp PG_UP &trans
 				&kp LSHFT &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &bl BL_INC &bl BL_DEC &kp DEL &kp END &kp PG_DN &kp RSHFT
-				&bt BT_CLR &bt BT_PRV &bt BT_NXT  &trans              &trans               &trans   &to 2   &mo 2 &kp RCTRL
+				&bt BT_CLR &bt BT_PRV &bt BT_NXT              &trans               &trans   &to 2   &mo 2 &kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
