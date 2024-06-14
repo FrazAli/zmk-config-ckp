@@ -40,17 +40,17 @@
       // |-----------------------------------------------------------------------------------------+
       // |         |Left |Down |Right|PgDn |     |Left |Down | Up  |Right|Home |PgUp |             |
       // |-----------------------------------------------------------------------------------------+
-      // |   Shift   |VolUp|VolDn|VolMu|     |PgUp |     |     | Del | End |PgDn |      Shift      |
+      // |           |VolUp|VolDn|VolMu|     |PgUp |     |     | Del | End |PgDn |                 |
       // |-----------------------------------------------------------------------------------------+
-      // | BtClr | BtPrev | BtNxt |                                |  Alt  |  Gui   |       | Ctrl |
+      // | BtClr | BtPrev | BtNxt |                                |       |        |       |      |
       // `-----------------------------------------------------------------------------------------'
       //
 			bindings = <
 				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
 				&trans &trans &kp UP &trans &trans &trans &trans &trans &trans &kp INS &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans
 				&kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp HOME &kp PG_UP &trans
-				&kp LSHFT &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &kp PG_UP &trans &trans &kp DEL &kp END &kp PG_DN &kp RSHFT
-				&bt BT_CLR &bt BT_PRV &bt BT_NXT              &trans               &kp RALT &kp RGUI &trans &kp RCTRL
+				&trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &kp PG_UP &trans &trans &kp DEL &kp END &kp PG_DN &trans
+				&bt BT_CLR &bt BT_PRV &bt BT_NXT              &trans               &trans &trans &trans &trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -63,17 +63,17 @@
       // |-----------------------------------------------------------------------------------------+
       // |         |     |     |     |PgDn |     |Left |Down | Up  |Right|     |     |     |       |
       // |-----------------------------------------------------------------------------------------+
-      // |   Shift   |     |     |     |     |PgUp |     |     |     |     |     |      Shift      |
+      // |           |     |     |     |     |PgUp |     |     |     |     |     |                 |
       // |-----------------------------------------------------------------------------------------+
-      // | Ctrl  |  Gui  |  Alt  |              Space              |  Alt  |  Gui  |        | Ctrl |
+      // | Ctrl  |  Gui  |  Alt  |                                 |       |       |        |      |
       // `-----------------------------------------------------------------------------------------'
       //
 			bindings = <
 				&trans &bootloader &sys_reset &rgb_ug RGB_TOG &bl BL_TOG &bl BL_INC &bl BL_DEC &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &trans
-				&kp LSHFT &trans &trans &trans &trans &kp PG_UP &trans &trans &trans &trans &trans &kp RSHFT
-				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE             &kp RALT &kp RGUI &trans &kp RCTRL
+				&trans &trans &trans &trans &trans &kp PG_UP &trans &trans &trans &trans &trans &trans
+				&kp LCTRL &kp LGUI &kp LALT            &trans             &trans &trans &trans &trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
