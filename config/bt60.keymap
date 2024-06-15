@@ -53,25 +53,24 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		layer_2 {
-      // Vim keys & Keyboard Controls
-      // ,-----------------------------------------------------------------------------------------.
-      // |     |BootLdr|SysReset|RgbTog|BlTog|BlInc|BlDec|BtClr|BtPrev|BtNxt|    |     |     |     |
-      // |-----------------------------------------------------------------------------------------+
-      // |        |     |     |     |     |     |     |     |     |     |     |     |      |       |
-      // |-----------------------------------------------------------------------------------------+
-      // |         |     |     |     |PgDn |     |Left |Down | Up  |Right|     |     |     |       |
-      // |-----------------------------------------------------------------------------------------+
-      // |           |     |     |     |     |PgUp |     |     |     |     |     |                 |
-      // |-----------------------------------------------------------------------------------------+
-      // | Ctrl  |  Gui  |  Alt  |                                 |       |       |        |      |
-      // `-----------------------------------------------------------------------------------------'
-      //
+      // Keyboard Controls and Vim Keys
 			bindings = <
-				&trans &bootloader &sys_reset &rgb_ug RGB_TOG &bl BL_TOG &bl BL_INC &bl BL_DEC &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &kp PG_DN &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &kp PG_UP &trans &trans &trans &trans &trans &trans
-				&kp LCTRL &kp LGUI &kp LALT            &trans             &trans &trans &trans &trans
+      // ┏━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+      // ┃      ┃ 1- Boot.  ┃ 2- Reset ┃ 3- RgbTog     ┃ 4- BlTog ┃ 5- BlInc ┃ 6- BlDec ┃ 7- BtClr ┃ 8- BtPrev┃ 9- BtNxt ┃                           ┃
+				  &trans &bootloader &sys_reset &rgb_ug RGB_TOG &bl BL_TOG &bl BL_INC &bl BL_DEC &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans
+      // ┣━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━┫
+      // ┃                                                                                                                                           ┃
+				  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+      // ┣━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+      // ┃             ┃                               ┃ F- PgDn   ┃      ┃ H ←      ┃ J ↓      ┃ K ↑    ┃ L →       ┃                               ┃
+				   &trans       &trans &trans &trans             &kp PG_DN  &trans  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans &trans &trans &trans
+      // ┣━━━━━━━━━━━━━┻━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━┳━┻━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+      // ┃                   ┃                                          ┃ B- PgUp    ┃                                                               ┃
+				   &trans              &trans &trans &trans &trans                &kp PG_UP    &trans &trans &trans &trans &trans &trans
+      // ┣━━━━━━━━━━━┳━━━━━━━┻━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+      // ┃ Ctrl      ┃ Gue      ┃ Alt      ┃                                                                                                         ┃
+				   &kp LCTRL   &kp LGUI   &kp LALT   &trans                                                           &trans    &trans   &trans   &trans
+      // ┗━━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
