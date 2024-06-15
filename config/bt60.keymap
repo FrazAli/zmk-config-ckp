@@ -24,7 +24,7 @@
       // ┃ Shift             ┃ Z     ┃ X     ┃ C     ┃ V     ┃ B     ┃ N     ┃ M     ┃ ,         ┃ .       ┃ /        ┃ Shift                    ┃
 				   &kp LSHFT           &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M   &kp COMMA   &kp DOT   &kp FSLH   &kp RSHFT
       // ┣━━━━━━━━━━━┳━━━━━━━┻━━┳━━━━┻━━━━━┳━┻━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━━━━━┻━━━━━━┳━━┻━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━┫
-      // ┃ Ctrl      ┃ Gui      ┃ Alt      ┃ Space                                                      ┃ Alt      ┃ ML2    ┃ ML1    ┃ Ctrl      ┃
+      // ┃ Ctrl      ┃ Gui      ┃ Alt      ┃ Space                                                      ┃ Alt      ┃ TogL2  ┃ TogL1  ┃ Ctrl      ┃
 				   &kp LCTRL   &kp LGUI   &kp LALT   &kp SPACE                                                    &kp RALT   &tog 2   &tog 1   &kp RCTRL
       // ┗━━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━┻━━━━━━━━┻━━━━━━━━━━━┛
 			>;
