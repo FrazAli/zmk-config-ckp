@@ -10,7 +10,7 @@
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
       tapping-term-ms = <200>;  // default: 200ms
-      bindings = <&mo 1>, <&tog 2>;
+      bindings = <&mo 1>, <&tog 1>;
     };
   };
 
